@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en-Us">
+
+    <head>
+        
+        <title>    Understanding - Hyperlinks   </title>
+
+        <meta name="author" content="Ankit Upadhyay">
+
+    </head>
+
+    <body>
+        
+        <!--
+            hyperlinks are most innovated feature of HTML
+            allows to load any content by its address
+            We can open any content document, images and applications including anything
+            After clicking we redirect to the page of content
+            All document can  be converted to a link( can be called and used to capture data/ redirect to that page)
+        -->
+
+        <!--
+            Link can be created by wrapping any content withing <a> tag
+                Attributes -- href=> Hypertext reference
+                title => Is what make this link if about as tooltip
+            -->
+
+        <!-- <a href="www.mozilla.com" title="Learning Doc"> Working with web from mozilla</a> -->
+
+        <!--
+            We can also make images as a link 
+        -->
+
+        <!-- <a href="https://www.crickbuzz.com" title="Redirects to crickbuzz">
+            <img src="./images/firefox-logo.png" width="300px">
+        </a> -->
+
+        <!--
+            Also we can load local files directly using file-path
+        -->
+
+        <!-- <p>     Continue if missed <a href="content-structuring.html">Content Structuring</a>   </p> -->
+
+        <!-- <p>
+            Brush up <a href="content-structuring.html#lists">Lists</a>
+        </p>
+
+
+        <span>Download Payslip <a href="C:\Users\Ankit\Downloads\0001-1220318.pdf" title="PAYSLIP"> Fake payslip </a></span> -->
+
+
+        <!--
+            To navigate to another content on that same page or another page,
+            We can do this with directly adding hypertext refrence by id
+        -->
+
+        <!-- <a href="#about-self">
+            <h1>Lets know Ankit</h1>
+        </a>
+
+
+        <p id="about-self">
+            
+            Anything that told here ankit is, A PERSON WHO IS interested to build Tech application whose durectly place software and solutions between world
+            so that rest can do whatever they want to do in their daily life.
+
+        </p> -->
+
+        <!--
+            Lets understand relative and absolute path
+            absolute path -- is path that is linked statically
+            relative path -- relative to current path
+        -->
+
+
+        <!-- <h1>    Lets see linking a img file     </h1> -->
+
+
+        <!--
+            Linking to a img
+            to download that document rather then opening with default name use download attribute
+        -->
+
+        <!-- <a href="images/firefox-logo.png" download="fav-burning-icon.png"> Firefox favicon </a>  -->
+
+        <!--
+            search engine index use link to index link files 
+            Use link text as keyword, increases chances to be shown
+        -->
+
+        <!-- <p>     <a href="https://www.mozila.com/download" >Download mozila </a></p>
+        -->
+
+        <!--
+            We can also point to a document that seen with link but
+            we can also send mails, which opens a well ready enviromment for mail-sending
+        -->
+
+        <!-- <a href="mailto:ank7559@gmail.com">Send mail to ankit</a> -->
+
+        <!--
+            We can also open a user-input receipient mailing address using
+            `mail-to` value in href
+        -->
+
+        <!-- <a href="mailto:">Send any mail</a> -->
+
+
+        <!--
+            This is also possible to link cc along with subject and body with mail
+            using parameters like subject, body.
+        -->
+
+        <!-- <a href="mailto:hitting@abhi.health?subject=Keep%20Growing%20with%20love&body=sample%20 mail">MAIL TO</a> -->
+
+        <a href="C:/Users/Ankit/Downloads/Kernighan, Brian W._Ritchie, Dennis M - The C programming language-Prentice Hall (2016).pdf"
+                download="c-from-core.pdf">
+            Learning book of C and Basics   
+        </a>        
+
+
+    </body>
+
+
+
+</html>
